@@ -4,6 +4,7 @@ import StoryReel from './StoryReel'
 import MessageSender from './MessageSender'
 import Post from './Post'
 import neeraj from './Images/neeraj.jpg'
+import photo5 from './Images/photo5.jpg'
 
 
 function Feed() {
@@ -13,13 +14,12 @@ function Feed() {
     <StoryReel />
     {/* MessageSender */}
     <MessageSender />
-
     <Post 
     profilePic ={neeraj}
     message='Wow this works!!'
     timestamp='This is a timeStamp'
     username='ghildiyalInsta'
-    image='https://images.app.goo.gl/7gG3gLqhkPk2UEjbA'
+    image={photo5}
     />
     <Post />
     <Post />
